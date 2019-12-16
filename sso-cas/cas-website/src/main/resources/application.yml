@@ -1,0 +1,16 @@
+#启动: http://a.com:8090/index
+server:
+  port: 8090
+  compression:
+    enabled: true
+  connection-timeout: 3000
+  servlet:
+    context-path: /enjoy
+spring:
+  redis:
+      host: 192.168.68.10
+      port: 6379
+
+
+
+

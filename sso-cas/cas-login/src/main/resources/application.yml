@@ -1,0 +1,14 @@
+#启动: http://cas.com:8080/index
+server:
+  port: 8080
+  compression:
+    enabled: true
+  connection-timeout: 3000
+spring:
+  redis:
+      host: 192.168.68.10
+      port: 6379
+
+
+
+
